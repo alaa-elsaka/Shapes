@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GeometryTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-01-25T21:38:29" hostname="DESKTOP-V6ARL4J" time="0.451">
+  <properties/>
+  <testcase name="checkPrintRecatangleNoWithinPlane()" classname="GeometryTest" time="0.091"/>
+  <testcase name="SetShapeCenterLocationToPoint()" classname="GeometryTest" time="0.01"/>
+  <testcase name="checkPrintRecatangleWithinPlane()" classname="GeometryTest" time="0.011"/>
+  <testcase name="RetrieveShapePerimeter()" classname="GeometryTest" time="0.019"/>
+  <testcase name="CreateRectangleWithoutArgument()" classname="GeometryTest" time="0.006"/>
+  <testcase name="CreateCircleWithRadius()" classname="GeometryTest" time="0.005"/>
+  <testcase name="CreateRectangleAndRetrieveLW()" classname="GeometryTest" time="0.005"/>
+  <testcase name="SetShapeLocationToPoint()" classname="GeometryTest" time="0.003"/>
+  <testcase name="checkAbsoluteLinearDistance()" classname="GeometryTest" time="0.003"/>
+  <testcase name="RetrieveShapeColour()" classname="GeometryTest" time="0.004"/>
+  <testcase name="checkMoveCenterPoint()" classname="GeometryTest" time="0.009"/>
+  <testcase name="checkPrintCircleWithinPlane()" classname="GeometryTest" time="0.005"/>
+  <testcase name="CreatePointRetrieveCoordinates()" classname="GeometryTest" time="0.004"/>
+  <testcase name="checkPrintCircleNoWithinPlane()" classname="GeometryTest" time="0.004"/>
+  <testcase name="RetrieveShapeArea()" classname="GeometryTest" time="0.013"/>
+  <testcase name="checkPlaneRepresentation()" classname="GeometryTest" time="0.013"/>
+  <testcase name="ChangeRectangleLength()" classname="GeometryTest" time="0.019"/>
+  <testcase name="CheckNoShapeLocation()" classname="GeometryTest" time="0.005"/>
+  <testcase name="ChangeChangeRadius()" classname="GeometryTest" time="0.005"/>
+  <testcase name="checkPrintPoint()" classname="GeometryTest" time="0.009"/>
+  <testcase name="RetrieveShapeColourNoSetter()" classname="GeometryTest" time="0.006"/>
+  <testcase name="checkAddCoordinates()" classname="GeometryTest" time="0.011"/>
+  <testcase name="ChangeRectangleWidth()" classname="GeometryTest" time="0.006"/>
+  <testcase name="CreateCircleWithoutArgument()" classname="GeometryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,103 @@
+When I create a rectangle with a length and width
+Then I can retrieve the length and width from the rectangle
+---------------------------------------------------------
+When I create a rectangle without a length and width
+Then the length and width I retrieve are both 1
+---------------------------------------------------------
+
+When I change the width of the rectangle
+Then the width I retrieve is the new width
+---------------------------------------------------------
+When I change the length of the rectangle
+Then the length I retrieve is the new length
+---------------------------------------------------------
+
+When I create a circle with a radius
+Then I can retrieve the radius from the circle
+---------------------------------------------------------
+When I create a circle without a radius
+Then the radius I retrieve is 1
+---------------------------------------------------------
+When I change the radius of a circle
+Then the radius I retrieve is the new radius
+---------------------------------------------------------
+When I set the color of any shape
+Then I can retrieve the color of that shape
+---------------------------------------------------------
+When I have not set the color of a shape
+Then the color I retrieve is “Burnt Umber”
+---------------------------------------------------------
+
+When I have a shape
+Then I can retrieve its perimeter
+---------------------------------------------------------
+
+When I have a shape
+Then I can retrieve its area
+---------------------------------------------------------
+
+
+When I create a point (x,y)
+Then I can retrieve its x and y coordinates
+---------------------------------------------------------
+
+
+
+When I have a shape and a point
+Then I can set the shape’s center location to the point
+---------------------------------------------------------
+
+
+When I have a shape that’s been placed on my plane
+Then I can retrieve the point at which it is located
+---------------------------------------------------------
+
+When I have a shape that’s not been placed on my plane
+Then attempting to retrieve its location informs me that
+the shape is not on the plane
+---------------------------------------------------------
+
+When I have a point
+Then if I give that point an (x, y) offset
+Then the point changes to the sum of its coordinates
+and those I’ve provided
+---------------------------------------------------------
+
+When I have a shape that’s been placed on my plane
+Then if I give the shape an (x,y) offset
+Then the shape’s center point moves by that offset
+---------------------------------------------------------
+
+
+If I have two shapes on my plane
+Then I can find the absolute linear distance between their centers
+---------------------------------------------------------
+
+
+If I have a rectangle on my plane
+Then I should see “<length> X <width> rectangle at (x,y)”
+---------------------------------------------------------
+
+
+If I have a rectangle not on my plane
+Then I should see “<length> X <width> rectangle”
+---------------------------------------------------------
+
+
+If I have a circle on my plane
+Then I should see “circle of radius <radius> at (x,y)”
+---------------------------------------------------------
+If I have a circle not on my plane
+Then I should see “circle of radius <radius>”
+---------------------------------------------------------
+
+If I have a point
+Then I should see “(x,y)”
+---------------------------------------------------------
+
+If I have any items on my plane
+Then I should be able to see a representation of all of them
+---------------------------------------------------------
+
+If I have a segment
+Then I should see “[(x,y)--(x,y)]”
